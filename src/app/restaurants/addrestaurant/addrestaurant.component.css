@@ -1,0 +1,22 @@
+*{
+    text-transform: capitalize;
+}
+.showaddrestaurant{
+    display: block;
+    padding: 50px;
+    height:55vh;
+    width:30vw;
+    position: absolute;
+    top:5%;
+    left:50%;
+    border:3px solid sandybrown;
+    z-index: 1000;
+    background:cornflowerblue
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+.hideaddrestaurant{
+    display: none;
+}

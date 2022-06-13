@@ -1,0 +1,15 @@
+footer{
+    position:absolute;
+    top:95%;
+    left:0%;
+    width:100%;
+
+}
+
+nav ul  li a,
+.navbar-brand{
+    color:#ffff;
+    margin: 0 20px;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,30 @@
+<div class="conatiner">
+  <div class="row">
+    <div class="col-md-12">
+      <nav class="navbar navbar-expand-lg bg-primary">
+        <a class="navbar-brand text-white" href="">Restaurants</a>
+        <div class="col-md-4">
+          <ul class="navbar-nav d-flex flex-column justify-content-between list-unstyled">
+            <li role="presentation" class="nav-item text-center"
+              routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+              <a routerLink="/">Home</a>
+            </li>
+            <li role="presentation" class="nav-item text-center" routerLinkActive="active">
+              <a routerLink='restaurants'>Restaurants</a>
+            </li>
+            
+          </ul>
+        </div>
+           <button class="btn btn-info float-right" (click)="loginload()">LogIn</button>
+      </nav>
+    </div>
+   
+  </div>
+</div>
+<footer>
+  <div class="col-md-12 bg-dark bg-primary">
+    <p class="text-center">copy rights<span>  &copy; </span> reserved</p>
+  </div>
+</footer>
+
+<router-outlet></router-outlet>
